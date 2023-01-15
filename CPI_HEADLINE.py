@@ -6,12 +6,10 @@ Módulo responsável por armazenar as funções de coleta de dados na API do BLS
 
 # Importando bibliotecas necessárias
 import json
-from datetime import datetime 
 import requests 
 import pandas as pd
-import xlwings as xw
 import datetime as dt
-from dateutil.relativedelta import relativedelta # Necessita instalação (fora do anaconda package)
+
 
 # Função Principal
 def get_bls_key():
